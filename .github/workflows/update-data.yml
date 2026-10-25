@@ -46,7 +46,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data docs/data README.md
-          if git diff --cached --quiet; then
+          # Ignore runs where only the build timestamp (JSON / xlsx metadata) changed.
+          if git diff --cached --quiet -I '"generated_at"' -- . ':!data/abbott_financials.xlsx'; then
             echo "No changes in SEC data."
           else
             git commit -m "data: monthly SEC EDGAR update ($(date -u +%Y-%m-%d))"

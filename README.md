@@ -50,7 +50,7 @@ SEC 제출 기업은 최근 회계연도 10-K 기준(자동 갱신), 해외 상�
 | 기업 | 티커 | 국가 | GICS Sub-Industry | 경쟁·중첩 영역 | FY 말 | 매출액 | 영업이익률 | 순이익률 |
 |---|---|---|---|---|---|---:|---:|---:|
 | **Abbott Laboratories** | ABT (NYSE) | USA | Health Care Equipment | — (기준 기업) | 2025-12 | $44.3B | 18.2% | 14.7% |
-| Medtronic plc | MDT (NYSE) | Ireland / USA | Health Care Equipment | 당뇨(CGM·인슐린펌프), 심혈관·구조적 심장, 신경조절 | 2026-04 | $36.4B | 17.8% | 0.0% |
+| Medtronic plc | MDT (NYSE) | Ireland / USA | Health Care Equipment | 당뇨(CGM·인슐린펌프), 심혈관·구조적 심장, 신경조절 | 2026-04 | $36.4B | 17.8% | 13.2% |
 | Boston Scientific | BSX (NYSE) | USA | Health Care Equipment | 전기생리(EP), 구조적 심장, 혈관중재, 신경조절 | 2025-12 | $20.1B | 18.0% | 14.4% |
 | Stryker | SYK (NYSE) | USA | Health Care Equipment | 신경혈관, 의료기기 전반 | 2025-12 | $25.1B | 19.5% | 12.9% |
 | Becton, Dickinson and Co. | BDX (NYSE) | USA | Health Care Equipment | 진단(미생물·분자), 의료기기 | 2025-09 | $21.8B | 11.8% | 7.7% |
@@ -59,7 +59,7 @@ SEC 제출 기업은 최근 회계연도 10-K 기준(자동 갱신), 해외 상�
 | Baxter International | BAX (NYSE) | USA | Health Care Equipment | 병원용 의료제품·임상영양 | 2025-12 | $11.2B | -2.7% | -8.5% |
 | Johnson & Johnson | JNJ (NYSE) | USA | Pharmaceuticals | MedTech(심혈관·EP·수술), 헬스케어 대형주 | 2025-12 | $94.2B | — | 28.5% |
 | Danaher | DHR (NYSE) | USA | Life Sciences Tools & Services | 진단(Beckman Coulter, Cepheid, Radiometer) | 2025-12 | $24.6B | 19.1% | 14.7% |
-| Thermo Fisher Scientific | TMO (NYSE) | USA | Life Sciences Tools & Services | 특수진단, 생명과학 도구 | 2025-12 | $44.6B | 17.4% | 15.1% |
+| Thermo Fisher Scientific | TMO (NYSE) | USA | Life Sciences Tools & Services | 특수진단, 생명과학 도구 | 2025-12 | $44.6B | 17.4% | 15.0% |
 | Roche Holding | ROG (SIX Swiss) | Switzerland | Pharmaceuticals | 진단(세계 1위 IVD), 당뇨 관리 | 비SEC·IFRS | — | — | — |
 | Siemens Healthineers | SHL (XETRA) | Germany | Health Care Equipment | 검체·현장진단(IVD), 영상진단 | 비SEC·IFRS | — | — | — |
 | Koninklijke Philips | PHIA / PHG (Euronext Amsterdam / NYSE) | Netherlands | Health Care Equipment | 환자 모니터링, 영상유도 치료 | 비SEC·IFRS | — | — | — |

@@ -162,12 +162,12 @@
     // 3. waterfall for latest FY
     const fy = A[A.length - 1];
     $("#wf-title").textContent = `손익 구조 Waterfall · ${fy.period}`;
-    const steps = [["매출액", fy.revenue, "total"], ["매출원가", fy.cogs, "neg"], ["R&D", fy.rnd, "neg"], ["SG&A", fy.sga, "neg"], ["무형자산상각", fy.amortization, "neg"]];
+    const steps = [["매출액", fy.revenue, "total"], ["매출원가", fy.cogs, "neg"], ["R&D", fy.rnd, "neg"], ["SG&A", fy.sga, "neg"], [["무형자산", "상각"], fy.amortization, "neg"]];
     const opex = steps.slice(1).reduce((s, x) => s + (isNum(x[1]) ? x[1] : 0), 0);
     const other = isNum(fy.operating_income) ? fy.revenue - opex - fy.operating_income : 0;
-    if (Math.abs(other) > fy.revenue * 0.005) steps.push(["기타 영업비용", other, "neg"]);
+    if (Math.abs(other) > fy.revenue * 0.005) steps.push([["기타", "영업비용"], other, "neg"]);
     steps.push(["영업이익", fy.operating_income, "total"]);
-    if (isNum(fy.net_income) && isNum(fy.operating_income)) steps.push(["영업외·법인세", fy.operating_income - fy.net_income, "neg"]);
+    if (isNum(fy.net_income) && isNum(fy.operating_income)) steps.push([["영업외", "·법인세"], fy.operating_income - fy.net_income, "neg"]);
     steps.push(["순이익", fy.net_income, "total"]);
     let run = 0;
     const wf = steps.filter((s) => isNum(s[1])).map(([name, v, kind]) => {
@@ -223,7 +223,7 @@
     legend("c-half", [["H1 (1–6월)", S(1)], ["H2 (7–12월)", S(7)]]);
 
     // 7. cash flow
-    const a10 = A.slice(-12);
+    const a10 = A.slice(-10);
     make("c-cash", {
       type: "bar",
       data: {

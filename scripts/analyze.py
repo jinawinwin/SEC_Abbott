@@ -121,6 +121,9 @@ def load_concepts(gaap, concepts):
         best = {}
         for unit_facts in node["units"].values():
             for f in unit_facts:
+                # Only periodic reports; e.g. DEF 14A proxies tag some values in millions.
+                if not str(f.get("form", "")).startswith(("10-K", "10-Q")):
+                    continue
                 key = (f.get("start"), f["end"])
                 if key not in best or f["filed"] > best[key]["filed"]:
                     best[key] = f
@@ -337,6 +340,12 @@ def clean(v):
 
 def main():
     facts = json.loads((RAW / "companyfacts.json").read_text(encoding="utf-8"))["facts"]["us-gaap"]
+    # Facts read directly from filings that companyfacts has not picked up yet (see sec_crawler.py).
+    for path in sorted((RAW / "filings").glob("*.json")):
+        for concept, node in json.loads(path.read_text(encoding="utf-8")).items():
+            units = facts.setdefault(concept, {"units": {}})["units"]
+            for unit, fs in node["units"].items():
+                units.setdefault(unit, []).extend(fs)
     subs = json.loads((RAW / "submissions.json").read_text(encoding="utf-8"))
     annual, half, quarterly = build_periods(facts)
     enrich(annual)

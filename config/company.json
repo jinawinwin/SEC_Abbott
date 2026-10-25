@@ -1,0 +1,41 @@
+{
+  "company": {
+    "name": "Abbott Laboratories",
+    "ticker": "ABT",
+    "exchange": "NYSE",
+    "cik": "0000001800",
+    "gics_sector": "Health Care",
+    "gics_industry_group": "Health Care Equipment & Services",
+    "gics_industry": "Health Care Equipment & Supplies",
+    "gics_sub_industry": "Health Care Equipment",
+    "headquarters": "Abbott Park, Illinois, USA",
+    "founded": 1888,
+    "fiscal_year_end": "December 31",
+    "index_membership": "S&P 500 · Dividend King (50+ consecutive years of dividend increases)",
+    "segments": [
+      "Medical Devices",
+      "Diagnostic Products",
+      "Nutritional Products",
+      "Established Pharmaceutical Products"
+    ],
+    "description": "Abbott Laboratories는 의료기기(FreeStyle Libre CGM, 심혈관·전기생리 기기), 진단(코어랩·분자·POC 진단), 영양(Similac, Ensure, PediaSure), 해외 브랜드 제네릭 의약품(Established Pharma) 4개 부문을 운영하는 글로벌 헬스케어 기업입니다. 160여 개국에서 사업을 영위하며, 2013년 연구개발형 제약 부문을 AbbVie로 분사했습니다.",
+    "website": "https://www.abbott.com"
+  },
+  "peers": [
+    {"name": "Medtronic plc", "ticker": "MDT", "exchange": "NYSE", "country": "Ireland / USA", "gics_sub_industry": "Health Care Equipment", "overlap": "당뇨(CGM·인슐린펌프), 심혈관·구조적 심장, 신경조절", "sec_cik": "0001613103"},
+    {"name": "Boston Scientific", "ticker": "BSX", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Health Care Equipment", "overlap": "전기생리(EP), 구조적 심장, 혈관중재, 신경조절", "sec_cik": "0000885725"},
+    {"name": "Stryker", "ticker": "SYK", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Health Care Equipment", "overlap": "신경혈관, 의료기기 전반", "sec_cik": "0000310764"},
+    {"name": "Becton, Dickinson and Co.", "ticker": "BDX", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Health Care Equipment", "overlap": "진단(미생물·분자), 의료기기", "sec_cik": "0000010795"},
+    {"name": "Edwards Lifesciences", "ticker": "EW", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Health Care Equipment", "overlap": "구조적 심장(TAVR·승모판 수리)", "sec_cik": "0001099800"},
+    {"name": "GE HealthCare", "ticker": "GEHC", "exchange": "NASDAQ", "country": "USA", "gics_sub_industry": "Health Care Equipment", "overlap": "진단 영상·환자 모니터링", "sec_cik": "0001932393"},
+    {"name": "Baxter International", "ticker": "BAX", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Health Care Equipment", "overlap": "병원용 의료제품·임상영양", "sec_cik": "0000010456"},
+    {"name": "Johnson & Johnson", "ticker": "JNJ", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Pharmaceuticals", "overlap": "MedTech(심혈관·EP·수술), 헬스케어 대형주", "sec_cik": "0000200406"},
+    {"name": "Danaher", "ticker": "DHR", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Life Sciences Tools & Services", "overlap": "진단(Beckman Coulter, Cepheid, Radiometer)", "sec_cik": "0000313616"},
+    {"name": "Thermo Fisher Scientific", "ticker": "TMO", "exchange": "NYSE", "country": "USA", "gics_sub_industry": "Life Sciences Tools & Services", "overlap": "특수진단, 생명과학 도구", "sec_cik": "0000097745"},
+    {"name": "Roche Holding", "ticker": "ROG", "exchange": "SIX Swiss", "country": "Switzerland", "gics_sub_industry": "Pharmaceuticals", "overlap": "진단(세계 1위 IVD), 당뇨 관리", "sec_cik": null},
+    {"name": "Siemens Healthineers", "ticker": "SHL", "exchange": "XETRA", "country": "Germany", "gics_sub_industry": "Health Care Equipment", "overlap": "검체·현장진단(IVD), 영상진단", "sec_cik": null},
+    {"name": "Koninklijke Philips", "ticker": "PHIA / PHG", "exchange": "Euronext Amsterdam / NYSE", "country": "Netherlands", "gics_sub_industry": "Health Care Equipment", "overlap": "환자 모니터링, 영상유도 치료", "sec_cik": null},
+    {"name": "Terumo", "ticker": "4543", "exchange": "TSE", "country": "Japan", "gics_sub_industry": "Health Care Equipment", "overlap": "심혈관 중재, 혈액·세포 기술", "sec_cik": null},
+    {"name": "Nestlé (Nestlé Health Science)", "ticker": "NESN", "exchange": "SIX Swiss", "country": "Switzerland", "gics_sub_industry": "Packaged Foods & Meats", "overlap": "영유아·성인 영양(분유, 의료영양)", "sec_cik": null}
+  ]
+}
